@@ -1,0 +1,42 @@
+.review {
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: white;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  :last-child {
+    margin-bottom: 0;
+  }
+  &__body {
+    flex: 1 0 auto;
+  }
+  &__title,
+  &__name {
+    font-weight: bold;
+  }
+  &__name {
+    font-size: small;
+  }
+  &__location {
+    font-weight: normal;
+  }
+  .clamp {
+    /* Required declarations: */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    &--2 {
+      /* Limit the text block to two lines */
+      -webkit-line-clamp: 2;
+    }
+    &--5 {
+      /* Limit the text block to two lines */
+      -webkit-line-clamp: 5;
+    }
+  }
+  .image-rating {
+    max-width: 100px;
+  }
+}

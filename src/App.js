@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Widget from './components/widget';
+import { ReviewsProvider } from './contexts/reviews';
+import ReviewsControl from './components/reviews-control';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ReviewsProvider>
+      <div className="App">
+        <Widget />
+        <hr/>
+        <ReviewsControl />
+        <p className="footer">This widget is fully responsive. Try resizing you window, even after changing pages!</p>
+      </div>
+    </ReviewsProvider>
   );
 }
 

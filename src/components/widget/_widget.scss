@@ -1,0 +1,20 @@
+.widget {
+  padding: 16px;
+  box-sizing: border-box;
+  &__rating {
+    font-size: 24px;
+    font-weight: bold;
+    > img {
+      vertical-align: middle;
+      margin-left: 16px;
+      width: 150px;
+    }
+  }
+  &__details {
+    > img {
+      vertical-align: bottom;
+      margin-left: 8px;
+      width: 80px;
+    }
+  }
+}
