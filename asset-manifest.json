@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Phyros64/trustpilot-widget/static/css/main.35ea4c30.chunk.css",
-    "main.js": "/Phyros64/trustpilot-widget/static/js/main.e285d409.chunk.js",
-    "main.js.map": "/Phyros64/trustpilot-widget/static/js/main.e285d409.chunk.js.map",
-    "runtime-main.js": "/Phyros64/trustpilot-widget/static/js/runtime-main.c2b70afc.js",
-    "runtime-main.js.map": "/Phyros64/trustpilot-widget/static/js/runtime-main.c2b70afc.js.map",
-    "static/js/2.7cb08e4b.chunk.js": "/Phyros64/trustpilot-widget/static/js/2.7cb08e4b.chunk.js",
-    "static/js/2.7cb08e4b.chunk.js.map": "/Phyros64/trustpilot-widget/static/js/2.7cb08e4b.chunk.js.map",
-    "index.html": "/Phyros64/trustpilot-widget/index.html",
-    "precache-manifest.657fa820f64fa3a339fcd56a87a3d5ef.js": "/Phyros64/trustpilot-widget/precache-manifest.657fa820f64fa3a339fcd56a87a3d5ef.js",
-    "service-worker.js": "/Phyros64/trustpilot-widget/service-worker.js",
-    "static/css/main.35ea4c30.chunk.css.map": "/Phyros64/trustpilot-widget/static/css/main.35ea4c30.chunk.css.map"
+    "main.css": "/trustpilot-widget/static/css/main.35ea4c30.chunk.css",
+    "main.js": "/trustpilot-widget/static/js/main.e285d409.chunk.js",
+    "main.js.map": "/trustpilot-widget/static/js/main.e285d409.chunk.js.map",
+    "runtime-main.js": "/trustpilot-widget/static/js/runtime-main.b8a60766.js",
+    "runtime-main.js.map": "/trustpilot-widget/static/js/runtime-main.b8a60766.js.map",
+    "static/js/2.7cb08e4b.chunk.js": "/trustpilot-widget/static/js/2.7cb08e4b.chunk.js",
+    "static/js/2.7cb08e4b.chunk.js.map": "/trustpilot-widget/static/js/2.7cb08e4b.chunk.js.map",
+    "index.html": "/trustpilot-widget/index.html",
+    "precache-manifest.cd188d68593f15ffb76989ddce86d472.js": "/trustpilot-widget/precache-manifest.cd188d68593f15ffb76989ddce86d472.js",
+    "service-worker.js": "/trustpilot-widget/service-worker.js",
+    "static/css/main.35ea4c30.chunk.css.map": "/trustpilot-widget/static/css/main.35ea4c30.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2b70afc.js",
+    "static/js/runtime-main.b8a60766.js",
     "static/js/2.7cb08e4b.chunk.js",
     "static/css/main.35ea4c30.chunk.css",
     "static/js/main.e285d409.chunk.js"
